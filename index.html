@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ratro</title>
+    <!-- css -->
+    <link rel="stylesheet" href="style/style.css">
+    <!-- daysi ui -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.14/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <!-- header -->
+    <header class="container mx-auto  mulish-uniquifier">
+        <!-- nav -->
+        <nav class="mt-6">
+            <div class="navbar bg-base-600 rounded-xl">
+                <div class="navbar-start">
+                    <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost">
+                            <p class="text-[#797DFC] font-bold text-5xl">ReTro</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="navbar-end">
+                    <button class="btn btn-ghost btn-circle">
+                        <svg width="24.000000" height="24.000000" viewBox="0 0 24 24" fill="none"
+                            xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <desc>
+                                Created with Pixso.
+                            </desc>
+                            <defs>
+                                <clipPath id="clip5_543">
+                                    <rect id="Frame" width="24.000000" height="24.000000" fill="white"
+                                        fill-opacity="0" />
+                                </clipPath>
+                            </defs>
+                            <rect id="Frame" width="24.000000" height="24.000000" fill="#FFFFFF" fill-opacity="0" />
+                            <g clip-path="url(#clip5_543)">
+                                <path id="Vector"
+                                    d="M2.25 12L11.2 3.04C11.64 2.6 12.35 2.6 12.79 3.04L21.75 12M4.5 9.75L4.5 19.87C4.5 20.49 5 21 5.62 21L9.75 21L9.75 16.12C9.75 15.5 10.25 15 10.87 15L13.12 15C13.74 15 14.25 15.5 14.25 16.12L14.25 21L18.37 21C18.99 21 19.5 20.49 19.5 19.87L19.5 9.75M8.25 21L16.5 21"
+                                    stroke="#12132D" stroke-opacity="0.600000" stroke-width="1.500000"
+                                    stroke-linejoin="round" stroke-linecap="round" />
+                            </g>
+                        </svg>
+                    </button>
+                    <button class="btn btn-ghost btn-circle">
+                        <svg width="21.000244" height="21.000244" viewBox="0 0 21.0002 21.0002" fill="none"
+                            xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <desc>
+                                Created with Pixso.
+                            </desc>
+                            <defs />
+                            <path id="Vector"
+                                d="M18 5.62L15.36 2.98L17.04 1.29C17.4 0.94 17.87 0.75 18.37 0.75C18.87 0.75 19.34 0.94 19.7 1.29C20.05 1.65 20.25 2.12 20.25 2.62C20.25 3.12 20.05 3.59 19.7 3.95L5.33 18.32C4.8 18.84 4.15 19.23 3.43 19.45L0.75 20.25L1.54 17.56C1.76 16.84 2.15 16.19 2.67 15.66L15.36 2.98L15.36 2.98"
+                                stroke="#12132D" stroke-opacity="0.600000" stroke-width="1.500000"
+                                stroke-linejoin="round" stroke-linecap="round" />
+                        </svg>
+                    </button>
+                    <button class="btn btn-ghost btn-circle">
+                        <svg width="24.000000" height="24.000000" viewBox="0 0 24 24" fill="none"
+                            xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <desc>
+                                Created with Pixso.
+                            </desc>
+                            <defs>
+                                <clipPath id="clip5_547">
+                                    <rect id="Frame" width="24.000000" height="24.000000" fill="white"
+                                        fill-opacity="0" />
+                                </clipPath>
+                            </defs>
+                            <rect id="Frame" width="24.000000" height="24.000000" fill="#FFFFFF" fill-opacity="0" />
+                            <g clip-path="url(#clip5_547)">
+                                <path id="Vector"
+                                    d="M18 7.5L18 10.5L18 13.5M18 10.5L21 10.5M18 10.5L15 10.5M11.76 8.76C11.12 9.39 10.27 9.75 9.37 9.75C8.47 9.75 7.62 9.39 6.98 8.76C6.35 8.12 6 7.27 6 6.37C6 5.47 6.35 4.62 6.98 3.98C7.62 3.35 8.47 3 9.37 3C10.27 3 11.12 3.35 11.76 3.98C12.39 4.62 12.75 5.47 12.75 6.37C12.75 7.27 12.39 8.12 11.76 8.76ZM3 19.12C3 17.43 3.67 15.81 4.86 14.61C6.06 13.42 7.68 12.75 9.37 12.75C11.06 12.75 12.68 13.42 13.88 14.61C15.07 15.81 15.75 17.43 15.75 19.12L15.75 19.23C13.82 20.39 11.62 21 9.37 21C7.04 21 4.86 20.35 3 19.23L3 19.23L3 19.12Z"
+                                    stroke="#12132D" stroke-opacity="0.600000" stroke-width="1.500000"
+                                    stroke-linejoin="round" stroke-linecap="round" />
+                            </g>
+                        </svg>
+
+                    </button>
+                    <button class="btn btn-ghost btn-circle">
+                        <svg width="24.000000" height="24.000000" viewBox="0 0 24 24" fill="none"
+                            xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <desc>
+                                Created with Pixso.
+                            </desc>
+                            <defs>
+                                <clipPath id="clip5_549">
+                                    <rect id="Frame" width="24.000000" height="24.000000" fill="white"
+                                        fill-opacity="0" />
+                                </clipPath>
+                            </defs>
+                            <rect id="Frame" width="24.000000" height="24.000000" fill="#FFFFFF" fill-opacity="0" />
+                            <g clip-path="url(#clip5_549)">
+                                <path id="Vector"
+                                    d="M3 3L3 4.5L3 15L3 21M3 15L5.77 14.3C7.85 13.78 10.05 14.02 11.97 14.98L12.08 15.04C13.96 15.98 16.12 16.23 18.17 15.75L21.28 15.02C20.9 11.53 20.9 8.01 21.28 4.52L18.17 5.25C16.12 5.73 13.96 5.48 12.08 4.54L11.97 4.48C10.05 3.52 7.85 3.28 5.77 3.8L3 4.5"
+                                    stroke="#12132D" stroke-opacity="0.600000" stroke-width="1.500000"
+                                    stroke-linejoin="round" stroke-linecap="round" />
+                            </g>
+                        </svg>
+
+                    </button>
+                    <button class="btn border-[#797DFC] text-2xl rounded-full text-white bg-[#797DFC] w-[150px]">
+                        Sign In
+                    </button>
+                </div>
+            </div>
+        </nav>
+        <!-- nav end -->
+        <!-- banner section -->
+        <section class="mt-6">
+            <div class="hero h-[560px]" style="background-image: url(img/bgbanner.png);">
+                <div class="hero-overlay rounded-xl bg-opacity-70"></div>
+                <div class="hero-content sm:flex-col justify-center lg:flex-row-reverse">
+                    <div class="w-[380px] h-[300px] rounded-xl bg-[#FFFFFF] shadow-2xl">
+                        <div class="flex justify-between items-center p-3 h-full">
+                            <div class="text-2xl mulish-uniquifier font-medium">
+                                <h1 class="font-bold">Registered Users</h1>
+                                <h1>Forum</h1>
+                                <h1>Topics</h1>
+                                <h1>Replies</h1>
+                            </div>
+                            <div class="text-2xl mulish-uniquifier font-medium">
+                                <h2>05</h2>
+                                <h2>01</h2>
+                                <h2>03</h2>
+                                <h2>04</h2>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div>
+                        <h1 class="text-6xl font-bold text-white ">Welcome to the <br> <span
+                                class="text-[#797DFCFF]">ReTro</span>
+                            Forum </h1>
+                        <p class="py-6">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore nobis vel ratione, tenetur
+                            facilis dicta quis atque inventore, dolore perspiciatis quos fugiat deserunt at sequi
+                            cupiditate sint dignissimos dolorum itaque!
+                        </p>
+                        <div class="flex  rounded-full">
+                            <input id="searchFile" type="text" placeholder="Search Here Anything.."
+                                class="input text-xl p-8 input-bordered w-full " />
+                            <button
+                            id="" onclick="seachInfuHandeler()"  class="btn text-xl font-bold border-[#797DFC] ml-[-155px] mt-2 rounded-full text-white bg-[#797DFC] w-[150px]">Search
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!--  -->
+
+            </div>
+        </section>
+        <!--banner section end  -->
+        <div class="grid mt-20 gap-5 p-4 mb-12 justify-center mulish-uniquifier">
+            <p class="text-6xl font-bold text-center">Let's Discuss </p>
+            <h1 class="text-xl">Yes, you can run unit tests and view the results directly within the app. The integrated
+                testing features allow for a streamlined .</h1>
+        </div>
+        <!-- catagory of music custume -->
+
+        <section class="flex  gap-12">
+            <div id="catagory-item" class="">
+                <!-- <div
+                    class="footer mb-6 mt-6 grid grid-flow-row-dense grid-cols-3 rounded-xl bg-base-200 text-base-content p-10">
+                    
+                    <nav>
+                        <div class="avatar online">
+                            <div class="w-24 rounded-xl">
+                                <img src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp" />
+                            </div>
+                        </div>
+                    </nav>
+                    <nav>
+                        <div class="flex gap-5">
+                            <h6 class="footer-title"># MUSIC</h6>
+                            <h6 class="footer-title"> Author : Awlad Hossain </h6>
+                        </div>
+                        <h2 class="mulish-uniquifier font-bold text-xl">10 Kids Unaware of Their Halloween Costume</h2>
+                        <h2>It's one thing to subject yourself to ha Halloween costume mishap because, hey that's your
+                            prerogative</h2>
+
+                    </nav>
+                    
+                    <nav>
+                    </nav>
+                    <nav>
+                    </nav>
+                   
+                    <nav class="">
+                        <div class="grid grid-flow-col gap-12">
+                            <a class="grid grid-flow-col gap-2">
+                                <svg width="22.500000" height="21.333374" viewBox="0 0 22.5 21.3334" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <desc>
+                                        Created with Pixso.
+                                    </desc>
+                                    <defs />
+                                    <path id="Vector"
+                                        d="M6.58 6.58L15.91 6.58M6.58 11.25L13.58 11.25M4.25 17.08C3.32 17.08 2.43 16.71 1.77 16.05C1.11 15.4 0.75 14.51 0.75 13.58L0.75 4.25C0.75 3.32 1.11 2.43 1.77 1.77C2.43 1.11 3.32 0.75 4.25 0.75L18.25 0.75C19.17 0.75 20.06 1.11 20.72 1.77C21.38 2.43 21.75 3.32 21.75 4.25L21.75 13.58C21.75 14.51 21.38 15.4 20.72 16.05C20.06 16.71 19.17 17.08 18.25 17.08L14.75 17.08L11.25 20.58L7.75 17.08L4.25 17.08Z"
+                                        stroke="#12132D" stroke-opacity="0.600000" stroke-width="1.500000"
+                                        stroke-linejoin="round" stroke-linecap="round" />
+                                </svg>
+                                <p>580</p>
+                            </a>
+                            <a class="grid grid-flow-col gap-2">
+                                <svg width="22.500000" height="15.500000" viewBox="0 0 22.5 15.5" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <desc>
+                                        Created with Pixso.
+                                    </desc>
+                                    <defs />
+                                    <path id="Vector"
+                                        d="M9.6 9.39C10.03 9.83 10.63 10.08 11.25 10.08C11.86 10.08 12.46 9.83 12.89 9.39C13.33 8.96 13.58 8.36 13.58 7.75C13.58 7.13 13.33 6.53 12.89 6.1C12.46 5.66 11.86 5.41 11.25 5.41C10.63 5.41 10.03 5.66 9.6 6.1C9.16 6.53 8.91 7.13 8.91 7.75C8.91 8.36 9.16 8.96 9.6 9.39ZM11.25 14.75C7.05 14.75 3.55 12.41 0.75 7.75C3.55 3.08 7.05 0.75 11.25 0.75C15.45 0.75 18.95 3.08 21.75 7.75C18.95 12.41 15.45 14.75 11.25 14.75Z"
+                                        stroke="#12132D" stroke-opacity="0.600000" stroke-width="1.500000"
+                                        stroke-linejoin="round" />
+                                </svg>
+                                <p>1580</p>
+                            </a>
+                            <a class="grid grid-flow-col gap-2">
+                                <svg width="22.500000" height="22.500000" viewBox="0 0 22.5 22.5" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <desc>
+                                        Created with Pixso.
+                                    </desc>
+                                    <defs />
+                                    <path id="Vector"
+                                        d="M1.54 15.26C2.07 16.54 2.85 17.69 3.82 18.67C4.8 19.64 5.95 20.42 7.23 20.95C8.5 21.47 9.87 21.75 11.25 21.75C12.62 21.75 13.99 21.47 15.26 20.95C16.54 20.42 17.69 19.64 18.67 18.67C19.64 17.69 20.42 16.54 20.95 15.26C21.47 13.99 21.75 12.62 21.75 11.25C21.75 9.87 21.47 8.5 20.95 7.23C20.42 5.95 19.64 4.8 18.67 3.82C17.69 2.85 16.54 2.07 15.26 1.54C13.99 1.02 12.62 0.75 11.25 0.75C9.87 0.75 8.5 1.02 7.23 1.54C5.95 2.07 4.8 2.85 3.82 3.82C2.85 4.8 2.07 5.95 1.54 7.23C1.02 8.5 0.75 9.87 0.75 11.25C0.75 12.62 1.02 13.99 1.54 15.26ZM11.25 5.41L11.25 11.25L7.16 11.25"
+                                        stroke="#12132D" stroke-opacity="0.600000" stroke-width="1.500000"
+                                        stroke-linejoin="round" stroke-linecap="round" />
+                                </svg>
+                                <p>5 min</p>
+                            </a>
+                        </div>
+                    </nav>
+                    
+                    <aside class="grid-flow-col items-center md:justify-self-end">
+                        <button class="btn">
+                            <svg width="27.999817" height="28.000000" viewBox="0 0 27.9998 28" fill="none"
+                                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <desc>
+                                    Created with Pixso.
+                                </desc>
+                                <defs />
+                                <path id="Vector"
+                                    d="M13.99 0C6.26 0 0 6.26 0 13.99C0 21.73 6.26 28 13.99 28C21.73 28 27.99 21.73 27.99 13.99C27.99 6.26 21.73 0 13.99 0ZM13.99 4.91L22.28 10.08L5.71 10.08L13.99 4.91ZM22.38 18.33L22.38 18.33C22.38 19.16 21.71 19.83 20.88 19.83L7.11 19.83C6.28 19.83 5.61 19.16 5.61 18.33L5.61 10.41C5.61 10.32 5.62 10.23 5.63 10.15L13.55 15.09C13.56 15.09 13.57 15.1 13.58 15.1C13.59 15.11 13.6 15.11 13.61 15.12C13.66 15.15 13.72 15.17 13.78 15.19C13.79 15.19 13.79 15.19 13.8 15.19C13.86 15.21 13.93 15.21 13.99 15.21L14 15.21C14 15.21 14 15.21 14 15.21C14.06 15.21 14.13 15.21 14.19 15.19C14.2 15.19 14.2 15.19 14.21 15.19C14.27 15.17 14.33 15.15 14.38 15.12C14.39 15.11 14.4 15.11 14.41 15.1C14.42 15.1 14.43 15.09 14.44 15.09L22.36 10.15C22.37 10.23 22.38 10.32 22.38 10.41L22.38 18.33Z"
+                                    fill="#10B981" fill-opacity="1.000000" fill-rule="nonzero" />
+                            </svg>
+                        </button>
+                    </aside> -->
+            </div>
+            </div>
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+            <!--viwe tital-->
+            <div class="p-6 h-full bg-gray-300 rounded-xl bg-[#FFFFFF] ">
+                <div class="flex justify-between">
+                    <p class="text-xl">Tital</p>
+                    <h1 class="text-xl"> Mark as read: <span>0</span> </h1>
+                </div>
+                <!-- modal -->
+               <div onclick="" id="catagory-view">
+                <div class="grid grid-flow-col gap-4 mt-4 bg-white p-2 rounded-xl">
+                    <p id="tital-view" class="grid">10 Kids Unaware Their Halloween Costume</p>
+                    <a class="grid grid-flow-col gap-4">
+                        <svg width="22.500000" height="15.500000" viewBox="0 0 22.5 15.5" fill="none"
+                            xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <desc>
+                                Created with Pixso.
+                            </desc>
+                            <defs />
+                            <path id="Vector"
+                                d="M9.6 9.39C10.03 9.83 10.63 10.08 11.25 10.08C11.86 10.08 12.46 9.83 12.89 9.39C13.33 8.96 13.58 8.36 13.58 7.75C13.58 7.13 13.33 6.53 12.89 6.1C12.46 5.66 11.86 5.41 11.25 5.41C10.63 5.41 10.03 5.66 9.6 6.1C9.16 6.53 8.91 7.13 8.91 7.75C8.91 8.36 9.16 8.96 9.6 9.39ZM11.25 14.75C7.05 14.75 3.55 12.41 0.75 7.75C3.55 3.08 7.05 0.75 11.25 0.75C15.45 0.75 18.95 3.08 21.75 7.75C18.95 12.41 15.45 14.75 11.25 14.75Z"
+                                stroke="#12132D" stroke-opacity="0.600000" stroke-width="1.500000"
+                                stroke-linejoin="round" />
+                        </svg>
+                        <p>1580</p>
+                    </a>
+                </div>
+                
+               </div>
+               <!--  -->
+            </div>
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </header>
+    <!-- main -->
+    <main class="container mx-auto mulish-uniquifier">
+        <!-- join foram -->
+        <section class="mt-6">
+            <div class="hero" style="background-image: url(img/bgbanner.png);">
+                <div class="hero-overlay rounded-xl bg-opacity-70"></div>
+                <div class="hero-content sm:flex-col justify-center lg:flex-row-reverse">
+                    <div class="w-[380px] h-[300px] rounded-xl shadow-2xl">
+                        <img src="img/joinforum.png" alt="" srcset="">
+                    </div>
+                    <div>
+                        <h1 class="text-6xl text-white font-bold "> Join Our Forum </h1>
+                        <p class="py-6">
+                            Share your favorite opinion and win and wp forum coffee mug! Yes, you can run unit tests and
+                            view the results directly within the app.
+                        </p>
+                        <button class="btn text-xl border-[#797DFC]  rounded-full text-white bg-[#797DFC]">Registered
+                            Now</button>
+                    </div>
+                </div>
+                <!--  -->
+            </div>
+        </section>
+        <!-- join end -->
+        <div class="grid mt-20 gap-5 p-4 mb-12 justify-center mulish-uniquifier">
+            <p class="text-6xl font-bold text-center">Let's Discuss </p>
+            <h1 class="text-xl">Yes, you can run unit tests and view the results directly within the app. The integrated
+                testing features allow for a streamlined .</h1>
+        </div>
+        <!-- card section -->
+        <section id="card-ride-viwe" class="mb-12 h-full grid lg:grid-cols-3 gap-12 md:grid-cols-2 sm:grid-cols-1 ">
+            <!-- card -->
+            <!-- <div class="card bg-base-300 border-2 border-red-500 ">
+                <figure class="px-10 pt-10">
+                    <img src="img/michael-s-ljpYx46lTAA-unsplash.jpg" alt="Shoes" class="rounded-xl" />
+                </figure>
+                
+                <div class="flex p-4 gap-2">
+                    <p>
+                        <svg width="24.000000" height="24.000000" viewBox="0 0 24 24" fill="none"
+                            xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <desc>
+                                Created with Pixso.
+                            </desc>
+                            <defs>
+                                <clipPath id="clip29_1881">
+                                    <rect id="Frame" width="24.000000" height="24.000000" fill="white"
+                                        fill-opacity="0" />
+                                </clipPath>
+                            </defs>
+                            <rect id="Frame" width="24.000000" height="24.000000" fill="#FFFFFF" fill-opacity="0" />
+                            <g clip-path="url(#clip29_1881)">
+                                <path id="Vector"
+                                    d="M4.58 5.58C4.96 5.21 5.46 5 6 5L18 5C18.53 5 19.03 5.21 19.41 5.58C19.78 5.96 20 6.46 20 7L20 19C20 19.53 19.78 20.03 19.41 20.41C19.03 20.78 18.53 21 18 21L6 21C5.46 21 4.96 20.78 4.58 20.41C4.21 20.03 4 19.53 4 19L4 7C4 6.46 4.21 5.96 4.58 5.58Z"
+                                    stroke="#12132D" stroke-opacity="0.600000" stroke-width="1.500000"
+                                    stroke-linejoin="round" />
+                                <path id="Vector" d="M16 3L16 7" stroke="#12132D" stroke-opacity="0.600000"
+                                    stroke-width="1.500000" stroke-linejoin="round" stroke-linecap="round" />
+                                <path id="Vector" d="M8 3L8 7" stroke="#12132D" stroke-opacity="0.600000"
+                                    stroke-width="1.500000" stroke-linejoin="round" stroke-linecap="round" />
+                                <path id="Vector" d="M4 11L20 11" stroke="#12132D" stroke-opacity="0.600000"
+                                    stroke-width="1.500000" stroke-linejoin="round" stroke-linecap="round" />
+                                <path id="Vector"
+                                    d="M11.29 16.7C11.48 16.89 11.73 17 12 17C12.26 17 12.51 16.89 12.7 16.7C12.89 16.51 13 16.26 13 16C13 15.73 12.89 15.48 12.7 15.29C12.51 15.1 12.26 15 12 15C11.73 15 11.48 15.1 11.29 15.29C11.1 15.48 11 15.73 11 16C11 16.26 11.1 16.51 11.29 16.7Z"
+                                    stroke="#12132D" stroke-opacity="0.600000" stroke-width="1.500000"
+                                    stroke-linejoin="round" />
+                            </g>
+                        </svg>
+                    </p>
+                    <h1>29 January 2024</h1>
+                </div>
+                
+                <div class="card-body items-center text-center">
+                    <h2 class="card-title">What will a mars habitat force that impact in our daily life!!!</h2>
+                    <p>If a dog chews shoes whose shoes does he choose?</p>
+                    <div class="card-actions gap-4">
+                        <div class="avatar">
+                            <div class="ring-primary ring-base-100 w-12 rounded-full ring ring-offset-2">
+                                <img src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp" />
+                            </div>
+                        </div>
+                        <div class="">
+                            <p>payal hossain</p>
+                            <h1>unknow</h1>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div> -->
+            <!--  -->
+            <!--  -->
+        </section>
+    </main>
+    <!-- footer -->
+    <footer>
+        <footer class="footer footer-center bg-base-200 text-base-content p-10">
+            <aside>
+                <p class="text-6xl text-[#797DFC] font-bold text-center">
+                    ReTro
+                </p>
+                <p>
+                    Providing reliable tech since 1992
+                </p>
+            </aside>
+            <nav>
+                <div class="grid grid-flow-col gap-4">
+                    <a>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                            class="fill-current">
+                            <path
+                                d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z">
+                            </path>
+                        </svg>
+                    </a>
+                    <a>
+                        <svg width="24.114014" height="24.000000" viewBox="0 0 24.114 24" fill="none"
+                            xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <desc>
+                                Created with Pixso.
+                            </desc>
+                            <defs />
+                            <path id="Vector"
+                                d="M12.05 2.16C15.27 2.16 15.65 2.17 16.92 2.23C17.69 2.24 18.45 2.38 19.16 2.64C19.68 2.84 20.16 3.15 20.55 3.54C20.94 3.93 21.25 4.4 21.45 4.92C21.72 5.63 21.86 6.39 21.87 7.15C21.92 8.41 21.94 8.79 21.94 12C21.94 15.2 21.93 15.58 21.87 16.84C21.86 17.6 21.72 18.36 21.45 19.07C21.25 19.59 20.94 20.06 20.55 20.45C20.16 20.84 19.68 21.15 19.16 21.35C18.45 21.61 17.69 21.75 16.92 21.76C15.65 21.82 15.27 21.83 12.05 21.83C8.83 21.83 8.45 21.82 7.18 21.76C6.42 21.75 5.66 21.61 4.94 21.35C4.42 21.15 3.95 20.84 3.55 20.45C3.16 20.06 2.85 19.59 2.65 19.07C2.39 18.36 2.25 17.6 2.24 16.84C2.18 15.58 2.17 15.2 2.17 12C2.17 8.79 2.18 8.41 2.24 7.15C2.25 6.39 2.39 5.63 2.65 4.92C2.85 4.4 3.16 3.93 3.55 3.54C3.95 3.15 4.42 2.84 4.94 2.64C5.66 2.38 6.42 2.24 7.18 2.23C8.45 2.17 8.83 2.16 12.05 2.16ZM12.05 0C8.78 0 8.37 0.01 7.08 0.07C6.08 0.09 5.09 0.28 4.15 0.62C3.35 0.93 2.62 1.4 2.02 2.01C1.4 2.61 0.93 3.33 0.63 4.13C0.28 5.07 0.09 6.05 0.07 7.05C0.01 8.33 0 8.74 0 11.99C0 15.25 0.01 15.66 0.07 16.94C0.09 17.94 0.28 18.92 0.63 19.86C0.93 20.66 1.41 21.38 2.02 21.98C2.62 22.59 3.35 23.06 4.15 23.37C5.09 23.71 6.08 23.9 7.08 23.92C8.37 23.98 8.78 24 12.05 24C15.33 24 15.74 23.98 17.02 23.92C18.02 23.9 19.01 23.71 19.95 23.37C20.75 23.06 21.48 22.58 22.09 21.98C22.69 21.38 23.17 20.65 23.48 19.85C23.83 18.92 24.02 17.94 24.04 16.94C24.1 15.66 24.11 15.25 24.11 11.99C24.11 8.74 24.1 8.33 24.04 7.05C24.02 6.05 23.83 5.07 23.48 4.13C23.17 3.33 22.7 2.61 22.09 2.01C21.48 1.4 20.75 0.92 19.95 0.62C19.01 0.27 18.02 0.09 17.02 0.07C15.74 0.01 15.32 0 12.05 0Z"
+                                fill="#12132D" fill-opacity="1.000000" fill-rule="nonzero" />
+                            <path id="Vector"
+                                d="M12.05 5.83C10.83 5.83 9.63 6.19 8.61 6.87C7.59 7.55 6.8 8.51 6.33 9.64C5.86 10.76 5.74 12 5.98 13.2C6.22 14.39 6.81 15.49 7.67 16.35C8.54 17.21 9.64 17.8 10.84 18.04C12.04 18.28 13.29 18.15 14.42 17.69C15.55 17.22 16.52 16.43 17.2 15.42C17.88 14.4 18.24 13.21 18.24 11.99C18.24 10.36 17.59 8.79 16.43 7.64C15.27 6.48 13.69 5.83 12.05 5.83ZM12.05 15.99C11.25 15.99 10.48 15.76 9.82 15.32C9.16 14.88 8.64 14.26 8.34 13.53C8.03 12.79 7.95 11.99 8.11 11.21C8.26 10.44 8.65 9.73 9.21 9.17C9.77 8.61 10.49 8.23 11.27 8.07C12.05 7.92 12.85 8 13.59 8.3C14.32 8.6 14.95 9.12 15.39 9.77C15.83 10.43 16.07 11.2 16.07 11.99C16.07 13.06 15.65 14.07 14.89 14.82C14.14 15.57 13.12 15.99 12.05 15.99Z"
+                                fill="#12132D" fill-opacity="1.000000" fill-rule="nonzero" />
+                            <path id="Vector"
+                                d="M19.93 5.59C19.93 6.38 19.29 7.03 18.49 7.03C17.69 7.03 17.04 6.38 17.04 5.59C17.04 4.79 17.69 4.15 18.49 4.15C19.29 4.15 19.93 4.79 19.93 5.59Z"
+                                fill="#12132D" fill-opacity="1.000000" fill-rule="evenodd" />
+                        </svg>
+                    </a>
+                    <a>
+                        <svg width="23.066467" height="22.398926" viewBox="0 0 23.0665 22.3989" fill="none"
+                            xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <desc>
+                                Created with Pixso.
+                            </desc>
+                            <defs />
+                            <path id="Vector"
+                                d="M11.53 0C5.14 0 0 5.11 0 11.47C0 16.54 3.31 20.85 7.88 22.38C8.45 22.47 8.64 22.14 8.64 21.8C8.64 21.52 8.64 20.8 8.64 19.84C5.43 20.56 4.75 18.31 4.75 18.31C4.22 16.97 3.45 16.64 3.45 16.64C2.4 15.92 3.55 15.92 3.55 15.92C4.7 16.02 5.33 17.12 5.33 17.12C6.34 18.89 8.02 18.36 8.69 18.07C8.79 17.31 9.08 16.83 9.41 16.54C6.87 16.26 4.18 15.25 4.18 10.85C4.18 9.61 4.61 8.56 5.38 7.79C5.28 7.5 4.85 6.36 5.47 4.73C5.47 4.73 6.43 4.44 8.64 5.93C9.56 5.69 10.57 5.54 11.53 5.54C12.49 5.54 13.5 5.69 14.41 5.93C16.62 4.44 17.58 4.73 17.58 4.73C18.21 6.31 17.82 7.46 17.68 7.79C18.4 8.6 18.88 9.61 18.88 10.85C18.88 15.25 16.19 16.21 13.59 16.49C14.03 16.83 14.36 17.55 14.36 18.6C14.36 20.13 14.36 21.37 14.36 21.76C14.36 22.04 14.56 22.43 15.18 22.33C19.75 20.85 23.06 16.54 23.06 11.47C23.06 5.11 17.92 0 11.53 0Z"
+                                fill="#12132D" fill-opacity="1.000000" fill-rule="evenodd" />
+                        </svg>
+
+                    </a>
+                    <a>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                            class="fill-current">
+                            <path
+                                d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z">
+                            </path>
+                        </svg>
+                    </a>
+                </div>
+            </nav>
+        </footer>
+        <footer class="footer bg-base-200 text-base-content border-base-300 border-t px-10 py-4">
+            <nav class="md:place-self-center md:justify-self-center">
+                <aside>
+                    <p>Copyright © {new Date().getFullYear()} - All right reserved by ACME Industries Ltd</p>
+                </aside>
+            </nav>
+        </footer>
+    </footer>
+
+    <!-- javascript -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
